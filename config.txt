@@ -1,0 +1,66 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// Configuration for pico-8
+// 
+// config.txt is read on startup and saved on exit.
+// To generate the default config.txt, delete this file.
+// 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+// :: Video Settings
+
+video_mode 580 540 8 // set the width, height and bitdepth. ignored by fixed-res games.
+show_fps 0 // Draw frames per second in the corner
+
+
+// :: Window Settings
+
+windowed 1 // 1 to start up in windowed mode
+window_position -1 -1 // x and y position of window, or -1, -1 to let the window manager decide
+frameless 0 // 1 to use a window with no frame
+fullscreen_method 0 // 0 safe (linux)  1 borderless desktop-sized window  2 fullscreen
+
+
+// :: System Settings
+
+frame_sleep_ms 5 // number of milli seconds to sleep each frame. To save laptop battery power, try 20
+sessions 14 // number of times program has been run
+
+// (scancode) hold this key down and left-click to simulate right-click
+rmb_key 0 // 0 for none  226 for LALT
+
+
+// :: Audio Settings
+
+sound_volume 256 // 0..256
+music_volume 256 // 0..256
+mix_buffer_size 1024 // usually 1024. Try 2048 if you get choppy sound
+
+
+// :: 
+
+version 0.1.6
+
+
+// Location of pico-8's root folder
+root_path C:/Users/mattp/AppData/Roaming/pico-8/carts/
+
+
+// Location of cartridge save data
+cdata_path C:/Users/mattp/AppData/Roaming/pico-8/cdata/
+
+
+// Specify which player index joystick control begins at (0..7)
+joystick_index 0
+
+button_keys 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+// Play notes as they are plotted in frequency mode
+live_notes 0
+
+// 420 for 1:1, 560 for 4:3, 525 for 5:4 etc.
+aspect 420
+
+// iff 1: when using keyboard cursor, snap to closest pixel / map cel
+cursor_snap 0
+
