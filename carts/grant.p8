@@ -98,6 +98,7 @@ function control_Player()
   elseif btn(1) then player.x += 3
     if player.x > 122 then player.x = 122 end
   end
+  
   if btn(2) then player.y -= 3
     if player.y < 0 then player.y = 0 end
   elseif btn(3) then player.y += 3
