@@ -24,7 +24,7 @@ fullscreen_method 0 // 0 safe (linux)  1 borderless desktop-sized window  2 full
 // :: System Settings
 
 frame_sleep_ms 5 // number of milli seconds to sleep each frame. To save laptop battery power, try 20
-sessions 14 // number of times program has been run
+sessions 38 // number of times program has been run
 
 // (scancode) hold this key down and left-click to simulate right-click
 rmb_key 0 // 0 for none  226 for LALT
@@ -39,7 +39,7 @@ mix_buffer_size 1024 // usually 1024. Try 2048 if you get choppy sound
 
 // :: 
 
-version 0.1.6
+version 0.1.8
 
 
 // Location of pico-8's root folder
@@ -63,4 +63,7 @@ aspect 420
 
 // iff 1: when using keyboard cursor, snap to closest pixel / map cel
 cursor_snap 0
+
+// maximum length of gif in seconds (1..120, default 8)
+gif_len 8
 
