@@ -10,7 +10,7 @@ codo_init
     05 frameless 0 // 1 to use a window with no frame
     06 fullscreen_method 0 // 0 safe (linux)  1 borderless desktop-sized window  2 fullscreen
     07 frame_sleep_ms 5 // number of milli seconds to sleep each frame. To save laptop battery power, try 20
-    08 sessions 39 // number of times program has been run
+    08 sessions 42 // number of times program has been run
     09 rmb_key 0 // 0 for none  226 for LALT
     10 sound_volume 256 // 0..256
     11 music_volume 256 // 0..256
@@ -45,23 +45,6 @@ SDL_INIT_AUDIO ok
 SDL_OpenAudio ok
 window shown (12)
 window shown (1)
-window hidden (13)
-window shown (12)
-window hidden (13)
-window shown (12)
-window hidden (13)
-window hidden (7)
-window shown (12)
-window hidden (13)
-window shown (12)
-window hidden (13)
-window shown (12)
-window hidden (13)
-window shown (12)
-window hidden (13)
-window shown (12)
-window hidden (13)
-window shown (12)
 window hidden (13)
 window shown (12)
 window hidden (13)
