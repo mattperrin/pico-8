@@ -1,1 +1,2 @@
 // add sdl game controller mappings to this file
+00000000000000000000000000000000,X360 Controller,a:b10,b:b11,x:b12,y:b13,back:b5,start:b4,leftstick:b6,rightstick:b7,leftshoulder:b8,rightshoulder:b9,dpup:b0,dpdown:b1,dpleft:b2,dpright:b3,leftx:a0,lefty:a1,rightx:a2,righty:a3,lefttrigger:a4,righttrigger:a5,platform:Windows,
